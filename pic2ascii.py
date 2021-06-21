@@ -31,7 +31,10 @@ def getCharacter(coords):
 
 # Create and move to the output folder
 
-shutil.rmtree(path + 'output')
+try:
+	shutil.rmtree(path + 'output')
+except:
+	pass
 
 chdir(path)
 mkdir('output')
