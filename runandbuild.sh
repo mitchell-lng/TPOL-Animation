@@ -1,0 +1,1 @@
+python3 pic2ascii.py && python3 run.py
